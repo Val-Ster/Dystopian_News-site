@@ -6,7 +6,7 @@ import "./styles/style.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Dystopian_News-site">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
