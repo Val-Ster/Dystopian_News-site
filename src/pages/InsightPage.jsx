@@ -102,7 +102,7 @@ export default function InsightPage() {
                   <div className="monster-views">
                     <div className="monster-view main-view">
                       <img
-                        src={`/monsters/${monster.image}`}
+                        src={`${import.meta.env.BASE_URL}monsters/${monster.image}`}
                         alt={monster.name}
                       />
                     </div>

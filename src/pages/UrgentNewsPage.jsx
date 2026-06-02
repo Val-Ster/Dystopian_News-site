@@ -27,10 +27,14 @@ export default function UrgentNewsPage() {
 
       <main className="urgent-video-content">
         <section className="video-card reveal" data-reveal>
-          <video controls className="urgent-video" poster="/urgent_news.mp4">
-            <source src="/urgent_news.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <iframe
+            className="urgent-video"
+            src="https://www.youtube.com/embed/gNz6wBWZT-g?rel=0&modestbranding=1"
+            title="Urgent Broadcast"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
           <div className="video-copy">
             <h2>Urgent Broadcast</h2>
             <p>

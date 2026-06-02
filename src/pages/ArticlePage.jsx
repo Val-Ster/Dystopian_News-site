@@ -25,7 +25,10 @@ export default function ArticlePage() {
   return (
     <div className="article-shell">
       <div className="article-banner reveal" data-reveal>
-        <img src={article.image} alt={article.title} />
+        <img
+          src={`${import.meta.env.BASE_URL}${article.image}`}
+          alt={article.title}
+        />
         <div className="article-overlay">
           <span className="eyebrow">{article.category}</span>
           <h1>{article.title}</h1>

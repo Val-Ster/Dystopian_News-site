@@ -6,7 +6,7 @@ export const newsItems = [
       "The regional transmitter has been offline for 14 hours. Citizens are asked to conserve power and report suspicious activity to the tower watch.",
     category: "Broadcast",
     time: "6 days ago",
-    image: "/public/airwaves.png",
+    image: "airwaves.png",
     body: [
       "The central relay tower on the east ridge fell silent after a sustained electromagnetic pulse swept across the horizon. Outposts nearest the tower reported signal fading in stages, leaving only low-band frequencies for emergency traffic.",
       "Field crews are on the move with portable amplifiers and shielded comm packs. Survivors are urged to maintain distance from damaged transmitters until the council authorizes safe approach.",

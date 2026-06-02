@@ -27,7 +27,10 @@ export default function MonsterDetailPage() {
   return (
     <div className="article-shell">
       <section className="article-banner revealed">
-        <img src={`/monsters/${monster.image}`} alt={monster.name} />
+        <img
+          src={`${import.meta.env.BASE_URL}monsters/${monster.image}`}
+          alt={monster.name}
+        />
         <div className="article-overlay">
           <span className="eyebrow">{monster.role}</span>
           <h1>{monster.name}</h1>
@@ -81,7 +84,7 @@ export default function MonsterDetailPage() {
             <h3>{monster.role}</h3>
             <p>Classification: {monster.role} </p>
             <p>
-              <br />
+              <br />,
               <h3>Field Notes</h3>
               <li>S rank – a full platoon with high artillery</li>
               <li>A rank – a squad with high artillery</li>
